@@ -3,9 +3,6 @@ import json
 from pathlib import Path 
 
 
-
-
-
 import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -30,6 +27,3 @@ def extract_weather_data(url:str) -> list :
 
     logging.info(f"Arquivo salvo em {output_path}")
     return data
-
-
-extract_weather_data(url)
