@@ -18,6 +18,16 @@ data/
 # Jupyter
 .ipynb_checkpoints/
 
-# Pastas do Airflow
+# Pastas e arquivos do Airflow
 logs/
 config/airflow.cfg
+airflow.db
+airflow-webserver.pid
+
+# IDEs e Editores
+.vscode/
+.idea/
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
